@@ -1,0 +1,1016 @@
+# Created at 2024-05-05T00:10:54.375
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+
+# Created at 2024-05-05T00:10:58.493
+Unexpected IOException with stream: Aprobado con éxito
+
+
+# Created at 2024-05-05T00:11:04.648
+Unexpected IOException with stream: malcriado
+
+
+# Created at 2024-05-05T00:11:04.665
+Unexpected IOException: 7,1,Funcionalidad del carrito de compra,Compra de un product(Funcionalidad del carrito de compra),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=124.0.6367.119)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-980JF22'\002C ip: '192.168.1.7'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '18.0.2.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 124.0.6367.119\002C chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8...\002C userDataDir: C:\005CUsers\005CBrayan\005CAppData\005CLoc...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:53537}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 89123b28219a6304ea7ea7ef98340da8,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=124.0.6367.119)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-980JF22'\002C ip: '192.168.1.7'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '18.0.2.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 124.0.6367.119\002C chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8...\002C userDataDir: C:\005CUsers\005CBrayan\005CAppData\005CLoc...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:53537}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 89123b28219a6304ea7ea7ef98340da8,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=124.0.6367.119)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-980JF22'\002C ip: '192.168.1.7'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '18.0.2.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 124.0.6367.119\002C chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8...\002C userDataDir: C:\005CUsers\005CBrayan\005CAppData\005CLoc...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:53537}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 89123b28219a6304ea7ea7ef98340da8,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=124.0.6367.119)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-980JF22'\002C ip: '192.168.1.7'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '18.0.2.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 124.0.6367.119\002C chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8...\002C userDataDir: C:\005CUsers\005CBrayan\005CAppData\005CLoc...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:53537}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 89123b28219a6304ea7ea7ef98340da8\000A
+
+
+# Created at 2024-05-05T00:11:04.668
+Unexpected IOException: 5,1,Funcionalidad del carrito de compra version 2,Compra de un product(Funcionalidad del carrito de compra version 2),null,null,null
+
+
+# Created at 2024-05-05T00:11:04.755
+Unexpected IOException with stream: S
+
+# Created at 2024-05-05T00:11:04.756
+Unexpected IOException with stream: t
+
+# Created at 2024-05-05T00:11:04.756
+Unexpected IOException with stream: a
+
+# Created at 2024-05-05T00:11:04.757
+Unexpected IOException with stream: r
+
+# Created at 2024-05-05T00:11:04.758
+Unexpected IOException with stream: t
+
+# Created at 2024-05-05T00:11:04.759
+Unexpected IOException with stream: i
+
+# Created at 2024-05-05T00:11:04.760
+Unexpected IOException with stream: n
+
+# Created at 2024-05-05T00:11:04.761
+Unexpected IOException with stream: g
+
+# Created at 2024-05-05T00:11:04.762
+Unexpected IOException with stream:  
+
+# Created at 2024-05-05T00:11:04.763
+Unexpected IOException with stream: C
+
+# Created at 2024-05-05T00:11:04.764
+Unexpected IOException with stream: h
+
+# Created at 2024-05-05T00:11:04.765
+Unexpected IOException with stream: r
+
+# Created at 2024-05-05T00:11:04.766
+Unexpected IOException with stream: o
+
+# Created at 2024-05-05T00:11:04.767
+Unexpected IOException with stream: m
+
+# Created at 2024-05-05T00:11:04.768
+Unexpected IOException with stream: e
+
+# Created at 2024-05-05T00:11:04.769
+Unexpected IOException with stream: D
+
+# Created at 2024-05-05T00:11:04.770
+Unexpected IOException with stream: r
+
+# Created at 2024-05-05T00:11:04.770
+Unexpected IOException with stream: i
+
+# Created at 2024-05-05T00:11:04.771
+Unexpected IOException with stream: v
+
+# Created at 2024-05-05T00:11:04.772
+Unexpected IOException with stream: e
+
+# Created at 2024-05-05T00:11:04.773
+Unexpected IOException with stream: r
+
+# Created at 2024-05-05T00:11:04.773
+Unexpected IOException with stream:  
+
+# Created at 2024-05-05T00:11:04.774
+Unexpected IOException with stream: 1
+
+# Created at 2024-05-05T00:11:04.775
+Unexpected IOException with stream: 2
+
+# Created at 2024-05-05T00:11:04.776
+Unexpected IOException with stream: 4
+
+# Created at 2024-05-05T00:11:04.777
+Unexpected IOException with stream: .
+
+# Created at 2024-05-05T00:11:04.778
+Unexpected IOException with stream: 0
+
+# Created at 2024-05-05T00:11:04.778
+Unexpected IOException with stream: .
+
+# Created at 2024-05-05T00:11:04.779
+Unexpected IOException with stream: 6
+
+# Created at 2024-05-05T00:11:04.780
+Unexpected IOException with stream: 3
+
+# Created at 2024-05-05T00:11:04.781
+Unexpected IOException with stream: 6
+
+# Created at 2024-05-05T00:11:04.783
+Unexpected IOException with stream: 7
+
+# Created at 2024-05-05T00:11:04.783
+Unexpected IOException with stream: .
+
+# Created at 2024-05-05T00:11:04.784
+Unexpected IOException with stream: 9
+
+# Created at 2024-05-05T00:11:04.785
+Unexpected IOException with stream: 1
+
+# Created at 2024-05-05T00:11:04.786
+Unexpected IOException with stream:  
+
+# Created at 2024-05-05T00:11:04.787
+Unexpected IOException with stream: (
+
+# Created at 2024-05-05T00:11:04.788
+Unexpected IOException with stream: 5
+
+# Created at 2024-05-05T00:11:04.789
+Unexpected IOException with stream: 1
+
+# Created at 2024-05-05T00:11:04.790
+Unexpected IOException with stream: d
+
+# Created at 2024-05-05T00:11:04.791
+Unexpected IOException with stream: f
+
+# Created at 2024-05-05T00:11:04.791
+Unexpected IOException with stream: 0
+
+# Created at 2024-05-05T00:11:04.792
+Unexpected IOException with stream: e
+
+# Created at 2024-05-05T00:11:04.793
+Unexpected IOException with stream: 5
+
+# Created at 2024-05-05T00:11:04.794
+Unexpected IOException with stream: e
+
+# Created at 2024-05-05T00:11:04.795
+Unexpected IOException with stream: 1
+
+# Created at 2024-05-05T00:11:04.795
+Unexpected IOException with stream: 7
+
+# Created at 2024-05-05T00:11:04.796
+Unexpected IOException with stream: a
+
+# Created at 2024-05-05T00:11:04.797
+Unexpected IOException with stream: 8
+
+# Created at 2024-05-05T00:11:04.798
+Unexpected IOException with stream: b
+
+# Created at 2024-05-05T00:11:04.799
+Unexpected IOException with stream: 0
+
+# Created at 2024-05-05T00:11:04.800
+Unexpected IOException with stream: a
+
+# Created at 2024-05-05T00:11:04.801
+Unexpected IOException with stream: 4
+
+# Created at 2024-05-05T00:11:04.802
+Unexpected IOException with stream: f
+
+# Created at 2024-05-05T00:11:04.803
+Unexpected IOException with stream: 2
+
+# Created at 2024-05-05T00:11:04.804
+Unexpected IOException with stream: 8
+
+# Created at 2024-05-05T00:11:04.805
+Unexpected IOException with stream: 1
+
+# Created at 2024-05-05T00:11:04.806
+Unexpected IOException with stream: c
+
+# Created at 2024-05-05T00:11:04.807
+Unexpected IOException with stream: 1
+
+# Created at 2024-05-05T00:11:04.808
+Unexpected IOException with stream: 6
+
+# Created at 2024-05-05T00:11:04.809
+Unexpected IOException with stream: 6
+
+# Created at 2024-05-05T00:11:04.810
+Unexpected IOException with stream: 5
+
+# Created at 2024-05-05T00:11:04.810
+Unexpected IOException with stream: d
+
+# Created at 2024-05-05T00:11:04.811
+Unexpected IOException with stream: b
+
+# Created at 2024-05-05T00:11:04.812
+Unexpected IOException with stream: d
+
+# Created at 2024-05-05T00:11:04.813
+Unexpected IOException with stream: 1
+
+# Created at 2024-05-05T00:11:04.814
+Unexpected IOException with stream: b
+
+# Created at 2024-05-05T00:11:04.814
+Unexpected IOException with stream: 8
+
+# Created at 2024-05-05T00:11:04.815
+Unexpected IOException with stream: a
+
+# Created at 2024-05-05T00:11:04.816
+Unexpected IOException with stream: 0
+
+# Created at 2024-05-05T00:11:04.817
+Unexpected IOException with stream: c
+
+# Created at 2024-05-05T00:11:04.818
+Unexpected IOException with stream: 6
+
+# Created at 2024-05-05T00:11:04.818
+Unexpected IOException with stream: b
+
+# Created at 2024-05-05T00:11:04.819
+Unexpected IOException with stream: 4
+
+# Created at 2024-05-05T00:11:04.820
+Unexpected IOException with stream: 6
+
+# Created at 2024-05-05T00:11:04.821
+Unexpected IOException with stream: a
+
+# Created at 2024-05-05T00:11:04.822
+Unexpected IOException with stream: f
+
+# Created at 2024-05-05T00:11:04.823
+Unexpected IOException with stream: -
+
+# Created at 2024-05-05T00:11:04.824
+Unexpected IOException with stream: r
+
+# Created at 2024-05-05T00:11:04.825
+Unexpected IOException with stream: e
+
+# Created at 2024-05-05T00:11:04.826
+Unexpected IOException with stream: f
+
+# Created at 2024-05-05T00:11:04.827
+Unexpected IOException with stream: s
+
+# Created at 2024-05-05T00:11:04.828
+Unexpected IOException with stream: /
+
+# Created at 2024-05-05T00:11:04.829
+Unexpected IOException with stream: b
+
+# Created at 2024-05-05T00:11:04.830
+Unexpected IOException with stream: r
+
+# Created at 2024-05-05T00:11:04.831
+Unexpected IOException with stream: a
+
+# Created at 2024-05-05T00:11:04.832
+Unexpected IOException with stream: n
+
+# Created at 2024-05-05T00:11:04.833
+Unexpected IOException with stream: c
+
+# Created at 2024-05-05T00:11:04.834
+Unexpected IOException with stream: h
+
+# Created at 2024-05-05T00:11:04.835
+Unexpected IOException with stream: -
+
+# Created at 2024-05-05T00:11:04.836
+Unexpected IOException with stream: h
+
+# Created at 2024-05-05T00:11:04.837
+Unexpected IOException with stream: e
+
+# Created at 2024-05-05T00:11:04.838
+Unexpected IOException with stream: a
+
+# Created at 2024-05-05T00:11:04.839
+Unexpected IOException with stream: d
+
+# Created at 2024-05-05T00:11:04.840
+Unexpected IOException with stream: s
+
+# Created at 2024-05-05T00:11:04.841
+Unexpected IOException with stream: /
+
+# Created at 2024-05-05T00:11:04.842
+Unexpected IOException with stream: 6
+
+# Created at 2024-05-05T00:11:04.844
+Unexpected IOException with stream: 3
+
+# Created at 2024-05-05T00:11:04.845
+Unexpected IOException with stream: 6
+
+# Created at 2024-05-05T00:11:04.845
+Unexpected IOException with stream: 7
+
+# Created at 2024-05-05T00:11:04.846
+Unexpected IOException with stream: @
+
+# Created at 2024-05-05T00:11:04.847
+Unexpected IOException with stream: {
+
+# Created at 2024-05-05T00:11:04.848
+Unexpected IOException with stream: #
+
+# Created at 2024-05-05T00:11:04.849
+Unexpected IOException with stream: 9
+
+# Created at 2024-05-05T00:11:04.850
+Unexpected IOException with stream: 8
+
+# Created at 2024-05-05T00:11:04.851
+Unexpected IOException with stream: 4
+
+# Created at 2024-05-05T00:11:04.852
+Unexpected IOException with stream: }
+
+# Created at 2024-05-05T00:11:04.853
+Unexpected IOException with stream: )
+
+# Created at 2024-05-05T00:11:04.854
+Unexpected IOException with stream:  
+
+# Created at 2024-05-05T00:11:04.855
+Unexpected IOException with stream: o
+
+# Created at 2024-05-05T00:11:04.856
+Unexpected IOException with stream: n
+
+# Created at 2024-05-05T00:11:04.857
+Unexpected IOException with stream:  
+
+# Created at 2024-05-05T00:11:04.858
+Unexpected IOException with stream: p
+
+# Created at 2024-05-05T00:11:04.859
+Unexpected IOException with stream: o
+
+# Created at 2024-05-05T00:11:04.860
+Unexpected IOException with stream: r
+
+# Created at 2024-05-05T00:11:04.861
+Unexpected IOException with stream: t
+
+# Created at 2024-05-05T00:11:04.863
+Unexpected IOException with stream:  
+
+# Created at 2024-05-05T00:11:04.864
+Unexpected IOException with stream: 3
+
+# Created at 2024-05-05T00:11:04.865
+Unexpected IOException with stream: 9
+
+# Created at 2024-05-05T00:11:04.866
+Unexpected IOException with stream: 8
+
+# Created at 2024-05-05T00:11:04.867
+Unexpected IOException with stream: 3
+
+# Created at 2024-05-05T00:11:04.868
+Unexpected IOException with stream: 5
+
+# Created at 2024-05-05T00:11:04.869
+Unexpected IOException with stream: 
+
+# Created at 2024-05-05T00:11:04.870
+Unexpected IOException with stream: 
+
+
+# Created at 2024-05-05T00:11:04.871
+Unexpected IOException with stream: O
+
+# Created at 2024-05-05T00:11:04.872
+Unexpected IOException with stream: n
+
+# Created at 2024-05-05T00:11:04.873
+Unexpected IOException with stream: l
+
+# Created at 2024-05-05T00:11:04.874
+Unexpected IOException with stream: y
+
+# Created at 2024-05-05T00:11:04.875
+Unexpected IOException with stream:  
+
+# Created at 2024-05-05T00:11:04.876
+Unexpected IOException with stream: l
+
+# Created at 2024-05-05T00:11:04.877
+Unexpected IOException with stream: o
+
+# Created at 2024-05-05T00:11:04.878
+Unexpected IOException with stream: c
+
+# Created at 2024-05-05T00:11:04.879
+Unexpected IOException with stream: a
+
+# Created at 2024-05-05T00:11:04.880
+Unexpected IOException with stream: l
+
+# Created at 2024-05-05T00:11:04.882
+Unexpected IOException with stream:  
+
+# Created at 2024-05-05T00:11:04.883
+Unexpected IOException with stream: c
+
+# Created at 2024-05-05T00:11:04.884
+Unexpected IOException with stream: o
+
+# Created at 2024-05-05T00:11:04.885
+Unexpected IOException with stream: n
+
+# Created at 2024-05-05T00:11:04.886
+Unexpected IOException with stream: n
+
+# Created at 2024-05-05T00:11:04.887
+Unexpected IOException with stream: e
+
+# Created at 2024-05-05T00:11:04.888
+Unexpected IOException with stream: c
+
+# Created at 2024-05-05T00:11:04.889
+Unexpected IOException with stream: t
+
+# Created at 2024-05-05T00:11:04.890
+Unexpected IOException with stream: i
+
+# Created at 2024-05-05T00:11:04.891
+Unexpected IOException with stream: o
+
+# Created at 2024-05-05T00:11:04.892
+Unexpected IOException with stream: n
+
+# Created at 2024-05-05T00:11:04.893
+Unexpected IOException with stream: s
+
+# Created at 2024-05-05T00:11:04.893
+Unexpected IOException with stream:  
+
+# Created at 2024-05-05T00:11:04.894
+Unexpected IOException with stream: a
+
+# Created at 2024-05-05T00:11:04.895
+Unexpected IOException with stream: r
+
+# Created at 2024-05-05T00:11:04.896
+Unexpected IOException with stream: e
+
+# Created at 2024-05-05T00:11:04.897
+Unexpected IOException with stream:  
+
+# Created at 2024-05-05T00:11:04.898
+Unexpected IOException with stream: a
+
+# Created at 2024-05-05T00:11:04.899
+Unexpected IOException with stream: l
+
+# Created at 2024-05-05T00:11:04.900
+Unexpected IOException with stream: l
+
+# Created at 2024-05-05T00:11:04.901
+Unexpected IOException with stream: o
+
+# Created at 2024-05-05T00:11:04.902
+Unexpected IOException with stream: w
+
+# Created at 2024-05-05T00:11:04.903
+Unexpected IOException with stream: e
+
+# Created at 2024-05-05T00:11:04.904
+Unexpected IOException with stream: d
+
+# Created at 2024-05-05T00:11:04.905
+Unexpected IOException with stream: .
+
+# Created at 2024-05-05T00:11:04.906
+Unexpected IOException with stream: 
+
+# Created at 2024-05-05T00:11:04.907
+Unexpected IOException with stream: 
+
+
+# Created at 2024-05-05T00:11:04.907
+Unexpected IOException with stream: P
+
+# Created at 2024-05-05T00:11:04.908
+Unexpected IOException with stream: l
+
+# Created at 2024-05-05T00:11:04.909
+Unexpected IOException with stream: e
+
+# Created at 2024-05-05T00:11:04.910
+Unexpected IOException with stream: a
+
+# Created at 2024-05-05T00:11:04.911
+Unexpected IOException with stream: s
+
+# Created at 2024-05-05T00:11:04.912
+Unexpected IOException with stream: e
+
+# Created at 2024-05-05T00:11:04.913
+Unexpected IOException with stream:  
+
+# Created at 2024-05-05T00:11:04.914
+Unexpected IOException with stream: s
+
+# Created at 2024-05-05T00:11:04.915
+Unexpected IOException with stream: e
+
+# Created at 2024-05-05T00:11:04.916
+Unexpected IOException with stream: e
+
+# Created at 2024-05-05T00:11:04.917
+Unexpected IOException with stream:  
+
+# Created at 2024-05-05T00:11:04.918
+Unexpected IOException with stream: h
+
+# Created at 2024-05-05T00:11:04.918
+Unexpected IOException with stream: t
+
+# Created at 2024-05-05T00:11:04.919
+Unexpected IOException with stream: t
+
+# Created at 2024-05-05T00:11:04.920
+Unexpected IOException with stream: p
+
+# Created at 2024-05-05T00:11:04.922
+Unexpected IOException with stream: s
+
+# Created at 2024-05-05T00:11:04.923
+Unexpected IOException with stream: :
+
+# Created at 2024-05-05T00:11:04.924
+Unexpected IOException with stream: /
+
+# Created at 2024-05-05T00:11:04.925
+Unexpected IOException with stream: /
+
+# Created at 2024-05-05T00:11:04.926
+Unexpected IOException with stream: c
+
+# Created at 2024-05-05T00:11:04.927
+Unexpected IOException with stream: h
+
+# Created at 2024-05-05T00:11:04.928
+Unexpected IOException with stream: r
+
+# Created at 2024-05-05T00:11:04.929
+Unexpected IOException with stream: o
+
+# Created at 2024-05-05T00:11:04.930
+Unexpected IOException with stream: m
+
+# Created at 2024-05-05T00:11:04.931
+Unexpected IOException with stream: e
+
+# Created at 2024-05-05T00:11:04.931
+Unexpected IOException with stream: d
+
+# Created at 2024-05-05T00:11:04.932
+Unexpected IOException with stream: r
+
+# Created at 2024-05-05T00:11:04.933
+Unexpected IOException with stream: i
+
+# Created at 2024-05-05T00:11:04.934
+Unexpected IOException with stream: v
+
+# Created at 2024-05-05T00:11:04.935
+Unexpected IOException with stream: e
+
+# Created at 2024-05-05T00:11:04.936
+Unexpected IOException with stream: r
+
+# Created at 2024-05-05T00:11:04.937
+Unexpected IOException with stream: .
+
+# Created at 2024-05-05T00:11:04.939
+Unexpected IOException with stream: c
+
+# Created at 2024-05-05T00:11:04.940
+Unexpected IOException with stream: h
+
+# Created at 2024-05-05T00:11:04.941
+Unexpected IOException with stream: r
+
+# Created at 2024-05-05T00:11:04.942
+Unexpected IOException with stream: o
+
+# Created at 2024-05-05T00:11:04.943
+Unexpected IOException with stream: m
+
+# Created at 2024-05-05T00:11:04.943
+Unexpected IOException with stream: i
+
+# Created at 2024-05-05T00:11:04.944
+Unexpected IOException with stream: u
+
+# Created at 2024-05-05T00:11:04.945
+Unexpected IOException with stream: m
+
+# Created at 2024-05-05T00:11:04.946
+Unexpected IOException with stream: .
+
+# Created at 2024-05-05T00:11:04.947
+Unexpected IOException with stream: o
+
+# Created at 2024-05-05T00:11:04.949
+Unexpected IOException with stream: r
+
+# Created at 2024-05-05T00:11:04.950
+Unexpected IOException with stream: g
+
+# Created at 2024-05-05T00:11:04.951
+Unexpected IOException with stream: /
+
+# Created at 2024-05-05T00:11:04.952
+Unexpected IOException with stream: s
+
+# Created at 2024-05-05T00:11:04.953
+Unexpected IOException with stream: e
+
+# Created at 2024-05-05T00:11:04.954
+Unexpected IOException with stream: c
+
+# Created at 2024-05-05T00:11:04.955
+Unexpected IOException with stream: u
+
+# Created at 2024-05-05T00:11:04.956
+Unexpected IOException with stream: r
+
+# Created at 2024-05-05T00:11:04.957
+Unexpected IOException with stream: i
+
+# Created at 2024-05-05T00:11:04.959
+Unexpected IOException with stream: t
+
+# Created at 2024-05-05T00:11:04.960
+Unexpected IOException with stream: y
+
+# Created at 2024-05-05T00:11:04.961
+Unexpected IOException with stream: -
+
+# Created at 2024-05-05T00:11:04.963
+Unexpected IOException with stream: c
+
+# Created at 2024-05-05T00:11:04.964
+Unexpected IOException with stream: o
+
+# Created at 2024-05-05T00:11:04.965
+Unexpected IOException with stream: n
+
+# Created at 2024-05-05T00:11:04.967
+Unexpected IOException with stream: s
+
+# Created at 2024-05-05T00:11:04.968
+Unexpected IOException with stream: i
+
+# Created at 2024-05-05T00:11:04.969
+Unexpected IOException with stream: d
+
+# Created at 2024-05-05T00:11:04.970
+Unexpected IOException with stream: e
+
+# Created at 2024-05-05T00:11:04.972
+Unexpected IOException with stream: r
+
+# Created at 2024-05-05T00:11:04.973
+Unexpected IOException with stream: a
+
+# Created at 2024-05-05T00:11:04.974
+Unexpected IOException with stream: t
+
+# Created at 2024-05-05T00:11:04.975
+Unexpected IOException with stream: i
+
+# Created at 2024-05-05T00:11:04.976
+Unexpected IOException with stream: o
+
+# Created at 2024-05-05T00:11:04.977
+Unexpected IOException with stream: n
+
+# Created at 2024-05-05T00:11:04.978
+Unexpected IOException with stream: s
+
+# Created at 2024-05-05T00:11:04.980
+Unexpected IOException with stream:  
+
+# Created at 2024-05-05T00:11:04.982
+Unexpected IOException with stream: f
+
+# Created at 2024-05-05T00:11:04.983
+Unexpected IOException with stream: o
+
+# Created at 2024-05-05T00:11:04.984
+Unexpected IOException with stream: r
+
+# Created at 2024-05-05T00:11:04.986
+Unexpected IOException with stream:  
+
+# Created at 2024-05-05T00:11:04.987
+Unexpected IOException with stream: s
+
+# Created at 2024-05-05T00:11:04.988
+Unexpected IOException with stream: u
+
+# Created at 2024-05-05T00:11:04.990
+Unexpected IOException with stream: g
+
+# Created at 2024-05-05T00:11:04.991
+Unexpected IOException with stream: g
+
+# Created at 2024-05-05T00:11:04.992
+Unexpected IOException with stream: e
+
+# Created at 2024-05-05T00:11:04.993
+Unexpected IOException with stream: s
+
+# Created at 2024-05-05T00:11:04.994
+Unexpected IOException with stream: t
+
+# Created at 2024-05-05T00:11:04.995
+Unexpected IOException with stream: i
+
+# Created at 2024-05-05T00:11:04.997
+Unexpected IOException with stream: o
+
+# Created at 2024-05-05T00:11:04.998
+Unexpected IOException with stream: n
+
+# Created at 2024-05-05T00:11:05.000
+Unexpected IOException with stream: s
+
+# Created at 2024-05-05T00:11:05.002
+Unexpected IOException with stream:  
+
+# Created at 2024-05-05T00:11:05.003
+Unexpected IOException with stream: o
+
+# Created at 2024-05-05T00:11:05.005
+Unexpected IOException with stream: n
+
+# Created at 2024-05-05T00:11:05.006
+Unexpected IOException with stream:  
+
+# Created at 2024-05-05T00:11:05.007
+Unexpected IOException with stream: k
+
+# Created at 2024-05-05T00:11:05.009
+Unexpected IOException with stream: e
+
+# Created at 2024-05-05T00:11:05.010
+Unexpected IOException with stream: e
+
+# Created at 2024-05-05T00:11:05.011
+Unexpected IOException with stream: p
+
+# Created at 2024-05-05T00:11:05.013
+Unexpected IOException with stream: i
+
+# Created at 2024-05-05T00:11:05.014
+Unexpected IOException with stream: n
+
+# Created at 2024-05-05T00:11:05.015
+Unexpected IOException with stream: g
+
+# Created at 2024-05-05T00:11:05.016
+Unexpected IOException with stream:  
+
+# Created at 2024-05-05T00:11:05.017
+Unexpected IOException with stream: C
+
+# Created at 2024-05-05T00:11:05.019
+Unexpected IOException with stream: h
+
+# Created at 2024-05-05T00:11:05.020
+Unexpected IOException with stream: r
+
+# Created at 2024-05-05T00:11:05.024
+Unexpected IOException with stream: o
+
+# Created at 2024-05-05T00:11:05.026
+Unexpected IOException with stream: m
+
+# Created at 2024-05-05T00:11:05.027
+Unexpected IOException with stream: e
+
+# Created at 2024-05-05T00:11:05.028
+Unexpected IOException with stream: D
+
+# Created at 2024-05-05T00:11:05.030
+Unexpected IOException with stream: r
+
+# Created at 2024-05-05T00:11:05.031
+Unexpected IOException with stream: i
+
+# Created at 2024-05-05T00:11:05.033
+Unexpected IOException with stream: v
+
+# Created at 2024-05-05T00:11:05.045
+Unexpected IOException with stream: e
+
+# Created at 2024-05-05T00:11:05.117
+Unexpected IOException with stream: r
+
+# Created at 2024-05-05T00:11:05.135
+Unexpected IOException with stream:  
+
+# Created at 2024-05-05T00:11:05.166
+Unexpected IOException with stream: s
+
+# Created at 2024-05-05T00:11:05.175
+Unexpected IOException with stream: a
+
+# Created at 2024-05-05T00:11:05.178
+Unexpected IOException with stream: f
+
+# Created at 2024-05-05T00:11:05.189
+Unexpected IOException with stream: e
+
+# Created at 2024-05-05T00:11:05.199
+Unexpected IOException with stream: .
+
+# Created at 2024-05-05T00:11:05.204
+Unexpected IOException with stream: 
+
+# Created at 2024-05-05T00:11:05.225
+Unexpected IOException with stream: 
+
+
+# Created at 2024-05-05T00:11:05.287
+Unexpected IOException with stream: C
+
+# Created at 2024-05-05T00:11:05.348
+Unexpected IOException with stream: h
+
+# Created at 2024-05-05T00:11:05.354
+Unexpected IOException with stream: r
+
+# Created at 2024-05-05T00:11:05.361
+Unexpected IOException with stream: o
+
+# Created at 2024-05-05T00:11:05.365
+Unexpected IOException with stream: m
+
+# Created at 2024-05-05T00:11:05.370
+Unexpected IOException with stream: e
+
+# Created at 2024-05-05T00:11:05.372
+Unexpected IOException with stream: D
+
+# Created at 2024-05-05T00:11:05.374
+Unexpected IOException with stream: r
+
+# Created at 2024-05-05T00:11:05.375
+Unexpected IOException with stream: i
+
+# Created at 2024-05-05T00:11:05.377
+Unexpected IOException with stream: v
+
+# Created at 2024-05-05T00:11:05.378
+Unexpected IOException with stream: e
+
+# Created at 2024-05-05T00:11:05.379
+Unexpected IOException with stream: r
+
+# Created at 2024-05-05T00:11:05.381
+Unexpected IOException with stream:  
+
+# Created at 2024-05-05T00:11:05.383
+Unexpected IOException with stream: w
+
+# Created at 2024-05-05T00:11:05.384
+Unexpected IOException with stream: a
+
+# Created at 2024-05-05T00:11:05.385
+Unexpected IOException with stream: s
+
+# Created at 2024-05-05T00:11:05.386
+Unexpected IOException with stream:  
+
+# Created at 2024-05-05T00:11:05.388
+Unexpected IOException with stream: s
+
+# Created at 2024-05-05T00:11:05.389
+Unexpected IOException with stream: t
+
+# Created at 2024-05-05T00:11:05.390
+Unexpected IOException with stream: a
+
+# Created at 2024-05-05T00:11:05.392
+Unexpected IOException with stream: r
+
+# Created at 2024-05-05T00:11:05.393
+Unexpected IOException with stream: t
+
+# Created at 2024-05-05T00:11:05.395
+Unexpected IOException with stream: e
+
+# Created at 2024-05-05T00:11:05.396
+Unexpected IOException with stream: d
+
+# Created at 2024-05-05T00:11:05.398
+Unexpected IOException with stream:  
+
+# Created at 2024-05-05T00:11:05.400
+Unexpected IOException with stream: s
+
+# Created at 2024-05-05T00:11:05.401
+Unexpected IOException with stream: u
+
+# Created at 2024-05-05T00:11:05.402
+Unexpected IOException with stream: c
+
+# Created at 2024-05-05T00:11:05.403
+Unexpected IOException with stream: c
+
+# Created at 2024-05-05T00:11:05.406
+Unexpected IOException with stream: e
+
+# Created at 2024-05-05T00:11:05.407
+Unexpected IOException with stream: s
+
+# Created at 2024-05-05T00:11:05.409
+Unexpected IOException with stream: s
+
+# Created at 2024-05-05T00:11:05.410
+Unexpected IOException with stream: f
+
+# Created at 2024-05-05T00:11:05.411
+Unexpected IOException with stream: u
+
+# Created at 2024-05-05T00:11:05.413
+Unexpected IOException with stream: l
+
+# Created at 2024-05-05T00:11:05.415
+Unexpected IOException with stream: l
+
+# Created at 2024-05-05T00:11:05.417
+Unexpected IOException with stream: y
+
+# Created at 2024-05-05T00:11:05.418
+Unexpected IOException with stream: .
+
+# Created at 2024-05-05T00:11:05.419
+Unexpected IOException with stream: 
+
+# Created at 2024-05-05T00:11:05.421
+Unexpected IOException with stream: 
+
+
+# Created at 2024-05-05T00:11:05.430
+Unexpected IOException with stream: may. 05, 2024 12:11:05 A. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+
+# Created at 2024-05-05T00:11:37.551
+Unexpected IOException: 7,1,Funcionalidad del carrito de compra version 2,Compra de un product(Funcionalidad del carrito de compra version 2),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=124.0.6367.119)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-980JF22'\002C ip: '192.168.1.7'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '18.0.2.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 124.0.6367.119\002C chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8...\002C userDataDir: C:\005CUsers\005CBrayan\005CAppData\005CLoc...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:53658}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 8e7d5ea3f2b6d2daead3831603a4fb19\000A*** Element info: {Using=link text\002C value=Generate Card Number},null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=124.0.6367.119)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-980JF22'\002C ip: '192.168.1.7'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '18.0.2.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 124.0.6367.119\002C chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8...\002C userDataDir: C:\005CUsers\005CBrayan\005CAppData\005CLoc...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:53658}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 8e7d5ea3f2b6d2daead3831603a4fb19\000A*** Element info: {Using=link text\002C value=Generate Card Number},no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=124.0.6367.119)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-980JF22'\002C ip: '192.168.1.7'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '18.0.2.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 124.0.6367.119\002C chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8...\002C userDataDir: C:\005CUsers\005CBrayan\005CAppData\005CLoc...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:53658}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 8e7d5ea3f2b6d2daead3831603a4fb19\000A*** Element info: {Using=link text\002C value=Generate Card Number},org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=124.0.6367.119)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-980JF22'\002C ip: '192.168.1.7'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '18.0.2.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 124.0.6367.119\002C chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8...\002C userDataDir: C:\005CUsers\005CBrayan\005CAppData\005CLoc...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:53658}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 8e7d5ea3f2b6d2daead3831603a4fb19\000A*** Element info: {Using=link text\002C value=Generate Card Number}\000A
+
+
+# Created at 2024-05-05T00:11:37.553
+Unexpected IOException: 7,1,Funcionalidad del carrito de compra version 2,Compra de un product(Funcionalidad del carrito de compra version 2),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=124.0.6367.119)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-980JF22'\002C ip: '192.168.1.7'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '18.0.2.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 124.0.6367.119\002C chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8...\002C userDataDir: C:\005CUsers\005CBrayan\005CAppData\005CLoc...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:53658}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 8e7d5ea3f2b6d2daead3831603a4fb19,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=124.0.6367.119)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-980JF22'\002C ip: '192.168.1.7'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '18.0.2.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 124.0.6367.119\002C chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8...\002C userDataDir: C:\005CUsers\005CBrayan\005CAppData\005CLoc...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:53658}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 8e7d5ea3f2b6d2daead3831603a4fb19,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=124.0.6367.119)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-980JF22'\002C ip: '192.168.1.7'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '18.0.2.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 124.0.6367.119\002C chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8...\002C userDataDir: C:\005CUsers\005CBrayan\005CAppData\005CLoc...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:53658}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 8e7d5ea3f2b6d2daead3831603a4fb19,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=124.0.6367.119)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-980JF22'\002C ip: '192.168.1.7'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '18.0.2.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 124.0.6367.119\002C chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8...\002C userDataDir: C:\005CUsers\005CBrayan\005CAppData\005CLoc...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:53658}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 8e7d5ea3f2b6d2daead3831603a4fb19\000A
+
+
+# Created at 2024-05-05T00:11:37.579
+Unexpected IOException with stream: [32m[1m┌───────────────────────────────────────────────────────────────────────────────────┐[0m
+[32m[1m│[0m Share your Cucumber Report with your team at [36m[1m[4mhttps://reports.cucumber.io[0m          [32m[1m│[0m
+[32m[1m│[0m Activate publishing with one of the following:                                    [32m[1m│[0m
+[32m[1m│[0m                                                                                   [32m[1m│[0m
+[32m[1m│[0m src/test/resources/cucumber.properties:          [36mcucumber.publish.enabled[0m=[36mtrue[0m    [32m[1m│[0m
+[32m[1m│[0m src/test/resources/junit-platform.properties:    [36mcucumber.publish.enabled[0m=[36mtrue[0m    [32m[1m│[0m
+[32m[1m│[0m Environment variable:                            [36mCUCUMBER_PUBLISH_ENABLED[0m=[36mtrue[0m    [32m[1m│[0m
+[32m[1m│[0m JUnit:                                           [36m@CucumberOptions[0m(publish = [36mtrue[0m) [32m[1m│[0m
+[32m[1m│[0m                                                                                   [32m[1m│[0m
+[32m[1m│[0m More information at [36mhttps://cucumber.io/docs/cucumber/environment-variables/[0m      [32m[1m│[0m
+[32m[1m│[0m                                                                                   [32m[1m│[0m
+[32m[1m│[0m Disable this message with one of the following:                                   [32m[1m│[0m
+[32m[1m│[0m                                                                                   [32m[1m│[0m
+[32m[1m│[0m src/test/resources/cucumber.properties:          [36mcucumber.publish.quiet[0m=[36mtrue[0m      [32m[1m│[0m
+[32m[1m│[0m src/test/resources/junit-platform.properties:    [36mcucumber.publish.quiet[0m=[36mtrue[0m      [32m[1m│[0m
+[32m[1m└───────────────────────────────────────────────────────────────────────────────────┘[0m
+
+
+# Created at 2024-05-05T00:11:37.580
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,support.runtest,null,null,null
+
+
