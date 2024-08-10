@@ -25,3 +25,5 @@ Característica: Funcionalidad del carrito de compra version 2
       | 2        | Payment successfull! |
       | 3        | Payment successfull! |
       | 7        | Payment as!          |
+qwed
+wqe
