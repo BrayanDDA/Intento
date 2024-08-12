@@ -30,5 +30,4 @@ public class confirmacionPage extends util {
         System.out.println("FINISHED SUCCESSFULLY");
     }
 
-
 }
