@@ -27,7 +27,7 @@ public class confirmacionPage extends util {
 
     public void mostrarCodigo(){
         System.out.println(lblCodigo.getText());
-        System.out.println("malcriado");
+        System.out.println("malcriados");
 
     }
 
