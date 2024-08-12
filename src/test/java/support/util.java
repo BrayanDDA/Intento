@@ -10,6 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
 import java.io.IOException;
+import java.time.Duration;
 import java.util.Date;
 import java.util.Set;
 import java.text.SimpleDateFormat;
@@ -19,7 +20,7 @@ public class util extends hooks {
     public static Alert dialogo;
 
     public util() {
-        wait=new WebDriverWait(driver,30);
+        wait = new WebDriverWait(driver, Duration.ofSeconds(30));
     }
     public void ventanActiva(){
         Set<String> identificadores = driver.getWindowHandles();
