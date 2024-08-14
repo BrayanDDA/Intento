@@ -76,8 +76,8 @@ public class carritoDefinition {
     public void validarElMensajeDePago(String mensaje) throws IOException, InterruptedException {
         confirmacion.validarMensaje(mensaje);
         evidencias();
-        //confirmacion.mostrarCodigo();
-        System.out.println("malcriado1111");
+        confirmacion.mostrarCodigo();
+        System.out.println("malcriado111100000");
         TimeUnit.SECONDS.sleep(3);
     }
 
