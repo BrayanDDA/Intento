@@ -1,21 +1,59 @@
 pipeline {
-    agent any
+    agent primario
+
     stages {
         stage('Build') {
             steps {
-                sh 'mvn clean install'
+                echo 'Building the project...'
+                sh 'mvn clean compile'
             }
         }
+
         stage('Test') {
             steps {
+                echo 'Running tests...'
                 sh 'mvn test'
             }
         }
+
+        stage('Cucumber Report') {
+            steps {
+                echo 'Generating Cucumber report...'
+                sh 'mvn verify -Dcucumber.options="--plugin json:target/cucumber-report.json"'
+            }
+            post {
+                always {
+                    echo 'Publishing Cucumber report...'
+                    cucumber 'target/cucumber-report.json'
+                }
+            }
+        }
+
+        stage('Archive Results') {
+            steps {
+                echo 'Archiving test results and logs...'
+                archiveArtifacts artifacts: 'target/surefire-reports/*.xml', allowEmptyArchive: true
+                archiveArtifacts artifacts: 'target/cucumber-report.json', allowEmptyArchive: true
+            }
+        }
+
+        stage('Clean Up') {
+            steps {
+                echo 'Cleaning up workspace...'
+                cleanWs()
+            }
+        }
     }
+
     post {
         always {
-            junit '**/target/surefire-reports/*.xml'
-            archiveArtifacts artifacts: '**/target/*.jar', allowEmptyArchive: true
+            echo 'Pipeline finished'
+        }
+        success {
+            echo 'Pipeline succeeded'
+        }
+        failure {
+            echo 'Pipeline failed'
         }
     }
 }
