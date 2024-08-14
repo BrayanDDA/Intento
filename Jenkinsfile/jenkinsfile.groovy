@@ -5,21 +5,21 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building the project...'
-                sh 'mvn clean compile'
+                bat 'mvn clean compile'
             }
         }
 
         stage('Test') {
             steps {
                 echo 'Running tests...'
-                sh 'mvn test'
+                bat 'mvn test'
             }
         }
 
         stage('Cucumber Report') {
             steps {
                 echo 'Generating Cucumber report...'
-                sh 'mvn verify -Dcucumber.options="--plugin json:target/cucumber-report.json"'
+                bat 'mvn verify -Dcucumber.options="--plugin json:target/cucumber-report.json"'
             }
             post {
                 always {
