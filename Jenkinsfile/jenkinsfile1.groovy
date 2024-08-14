@@ -19,7 +19,7 @@ pipeline {
         stage('Cucumber Report') {
             steps {
                 echo 'Generating Cucumber report...'
-                bat 'mvn verify -Dcucumber.options="--plugin json:target/cucumber-report/cucumber.json"'
+                //bat 'mvn verify -Dcucumber.options="--plugin json:target/cucumber-report/cucumber.json"'
             }
             post {
                 always {
