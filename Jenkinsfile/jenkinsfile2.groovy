@@ -1,6 +1,5 @@
 pipeline {
-    agent any
-            //{ label 'primario' }
+    agent { label 'web-testing' }
 
     stages {
         stage('Build') {
