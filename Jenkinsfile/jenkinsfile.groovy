@@ -33,16 +33,10 @@ pipeline {
             steps {
                 echo 'Archiving test results and logs...'
                 archiveArtifacts artifacts: 'target/surefire-reports/*.xml', allowEmptyArchive: true
-                archiveArtifacts artifacts: 'target/cucumber-report.json', allowEmptyArchive: true
+                archiveArtifacts artifacts: 'target/cucumber-report/cucumber.json', allowEmptyArchive: true
             }
         }
 
-        stage('Clean Up') {
-            steps {
-                echo 'Cleaning up workspace...'
-                cleanWs()
-            }
-        }
     }
 
     post {
