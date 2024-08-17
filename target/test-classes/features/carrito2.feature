@@ -1,6 +1,7 @@
 # language: es
 Característica: Funcionalidad del carrito de compra version 2
-@smoke
+
+  @smoke
   Escenario: Compra de un product
     Dado que la web esta operativa
     Cuando se genera el numero de trajeta
@@ -9,7 +10,8 @@ Característica: Funcionalidad del carrito de compra version 2
     E ingresa los datos de la tarjeta
     Y paga el producto
     Entonces validar el mensaje de pago "Payment successfull!"
-@regresion
+
+  @regresion
   Esquema del escenario: : Compra de un producto con varias cantidades
     Dado que la web esta operativa
     Cuando se genera el numero de trajeta
@@ -19,7 +21,7 @@ Característica: Funcionalidad del carrito de compra version 2
     Y paga el producto
     Entonces validar el mensaje de pago "<mensaje>"
     Ejemplos: Tabla de cantidades
-    |cantidad|mensaje|
-    |2       |Payment successfull!|
-    |3       |Payment successfull!|
-    |7       |Payment as!|
+      | cantidad | mensaje              |
+      | 2        | Payment successfull! |
+      | 3        | Payment successfull! |
+      | 7        | Payment as!          |
