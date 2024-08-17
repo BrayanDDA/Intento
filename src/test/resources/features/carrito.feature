@@ -27,6 +27,7 @@ Característica: Funcionalidad del carrito de compra
       | 1        | Payment successfull! |
       | 3        | Payment as!          |
 
+  @regresion2
   Escenario: Validacion de trajeta en blanco
     Dado que la web esta operativa
     Cuando selecciona la cantidad "5"
