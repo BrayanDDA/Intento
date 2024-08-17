@@ -1,9 +1,9 @@
 pipeline {
     agent any
 
-    parameters {
-        string(name: 'TEST_TAG', defaultValue: 'smoke', description: 'Tag de las pruebas a ejecutar')
-    }
+    //parameters {
+    //    string(name: 'TEST_TAG', defaultValue: 'smoke', description: 'Tag de las pruebas a ejecutar')
+    //}
 
     stages {
         stage('Build') {
@@ -16,16 +16,20 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Running tests...'
+
                 //bat 'mvn test'
                 //bat 'mvn verify -Dcucumber.options="--plugin json:target/cucumber-report/cucumber.json"'
+
                 script {
                     // Obtener el valor del parámetro ingresado
                     def tag = params.TEST_TAG
                     echo "Running tests with tag: ${tag}"
 
-                    // Comando para ejecutar las pruebas filtrando por el tag
-                    // Este ejemplo usa Maven y Cucumber, ajústalo según tu proyecto
-                    bat 'mvn test -Dcucumber.options="--tags @${tag} --plugin json:target/cucumber-report/cucumber.json"'
+                    // Ejecuta las pruebas utilizando el tag ingresado
+                    //bat "mvn test -Dcucumber.options=\"--tags @${tag}\""
+
+                    // Genera el reporte de Cucumber filtrando por el tag
+                    bat 'mvn verify -Dcucumber.options=\"--plugin json:target/cucumber-report/cucumber.json --tags @${tag}\"'
                 }
             }
         }
