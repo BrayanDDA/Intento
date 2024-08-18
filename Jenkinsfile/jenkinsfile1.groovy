@@ -29,7 +29,8 @@ pipeline {
                     //bat "mvn test -Dcucumber.options=\"--tags @${tag}\""
 
                     // Genera el reporte de Cucumber filtrando por el tag
-                    bat "mvn verify -Dcucumber.options=\"--plugin json:target/cucumber-report/cucumber.json --tags @${tag}\""
+                    //bat "mvn verify -Dcucumber.options=\"--plugin json:target/cucumber-report/cucumber.json --tags @${tag}\""
+                    bat "mvn test -Dcucumber.options=\"--tags @${tag}\""
                 }
             }
         }
